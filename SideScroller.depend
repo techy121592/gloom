@@ -1,0 +1,952 @@
+# depslib dependency file v1.0
+1321553028 source:.\character.cpp
+	"Character.h"
+
+1321553028 .\character.h
+	"GameObject.h"
+	"Abilities.h"
+
+1321553028 .\gameobject.h
+	<stdlib.h>
+	<string>
+	"DVector.h"
+	"Consts.h"
+
+1321553028 .\dvector.h
+	<stdlib.h>
+
+1321553028 .\consts.h
+
+1321553028 .\abilities.h
+
+1321553028 source:.\enemy.cpp
+	"Enemy.h"
+
+1321553028 .\enemy.h
+	"Character.h"
+
+1321553028 source:.\gameobject.cpp
+	"GameObject.h"
+
+1321553028 source:.\imagehandler.cpp
+	"ImageHandler.h"
+
+1321553028 .\imagehandler.h
+	<stdlib.h>
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	<vector>
+	"GameObject.h"
+	"Consts.h"
+	"Tile.h"
+	"Character.h"
+	"Enemy.h"
+	"Projectile.h"
+	"Item.h"
+
+1255796849 .\..\sdl-1.2.14\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 .\..\sdl-1.2.14\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 .\..\sdl-1.2.14\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1255796864 .\..\sdl-1.2.14\include\sdl_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1255796850 .\..\sdl-1.2.14\include\sdl_platform.h
+
+1255796850 .\..\sdl-1.2.14\include\begin_code.h
+
+1255796850 .\..\sdl-1.2.14\include\close_code.h
+
+1255796849 .\..\sdl-1.2.14\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796849 .\..\sdl-1.2.14\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796849 .\..\sdl-1.2.14\include\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 .\..\sdl-1.2.14\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 .\..\sdl-1.2.14\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1255796850 .\..\sdl-1.2.14\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796849 .\..\sdl-1.2.14\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796849 .\..\sdl-1.2.14\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796849 .\..\sdl-1.2.14\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796849 .\..\sdl-1.2.14\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796849 .\..\sdl-1.2.14\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 .\..\sdl-1.2.14\include\sdl_keysym.h
+
+1255796850 .\..\sdl-1.2.14\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 .\..\sdl-1.2.14\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796849 .\..\sdl-1.2.14\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 .\..\sdl-1.2.14\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1255796850 .\..\sdl-1.2.14\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 .\..\sdl-1.2.14\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 .\..\sdl-1.2.14\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1308363427 .\..\sdl-1.2.14\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1321553028 .\tile.h
+	<stdlib.h>
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"GameObject.h"
+
+1321553028 .\projectile.h
+	"GameObject.h"
+
+1321553028 .\item.h
+	"GameObject.h"
+
+1321553028 source:.\item.cpp
+	"Item.h"
+
+1321553028 source:.\loadlevel.cpp
+	"LoadLevel.h"
+	"Character.h"
+	"Enemy.h"
+	<iostream>
+	<fstream>
+
+1321553028 .\loadlevel.h
+	<iostream>
+	<iomanip>
+	<fstream>
+	<vector>
+	"Tile.h"
+	"DVector.h"
+	<string>
+	"Enemy.h"
+	"Item.h"
+
+1321553028 source:.\projectile.cpp
+	"Projectile.h"
+	"Consts.h"
+
+1321553028 source:.\timer.cpp
+	"Timer.h"
+	<SDL.h>
+
+1321553028 .\timer.h
+	<stdint.h>
+
+1321553028 source:.\main.cpp
+	"Game.h"
+
+1321553028 .\game.h
+	<stdlib.h>
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"ImageHandler.h"
+	"LoadLevel.h"
+	"Key.h"
+	"Character.h"
+	"Timer.h"
+	<SDL_Mixer.h>
+	"Enemy.h"
+	"Projectile.h"
+	"Item.h"
+
+1321553028 .\key.h
+
+1314331478 .\..\sdl-1.2.14\include\sdl_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 .\..\sdl-1.2.14\include\sdl_types.h
+	"SDL_stdinc.h"
+
+1335553592 source:.\..\programs\ghotigames_ss\sidescroller2\character.cpp
+	"Character.h"
+
+1321556628 .\..\programs\ghotigames_ss\sidescroller2\character.h
+	"GameObject.h"
+	"Abilities.h"
+
+1321556628 .\..\programs\ghotigames_ss\sidescroller2\gameobject.h
+	<stdlib.h>
+	<string>
+	"DVector.h"
+	"Consts.h"
+
+1321556628 .\..\programs\ghotigames_ss\sidescroller2\dvector.h
+	<stdlib.h>
+
+1336611093 .\..\programs\ghotigames_ss\sidescroller2\consts.h
+
+1321556628 .\..\programs\ghotigames_ss\sidescroller2\abilities.h
+
+1321556628 source:.\..\programs\ghotigames_ss\sidescroller2\enemy.cpp
+	"Enemy.h"
+
+1321556628 .\..\programs\ghotigames_ss\sidescroller2\enemy.h
+	"Character.h"
+
+1321556628 source:.\..\programs\ghotigames_ss\sidescroller2\gameobject.cpp
+	"GameObject.h"
+
+1336518090 source:.\..\programs\ghotigames_ss\sidescroller2\imagehandler.cpp
+	"ImageHandler.h"
+
+1321556628 .\..\programs\ghotigames_ss\sidescroller2\imagehandler.h
+	<stdlib.h>
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	<vector>
+	"GameObject.h"
+	"Consts.h"
+	"Tile.h"
+	"Character.h"
+	"Enemy.h"
+	"Projectile.h"
+	"Item.h"
+
+1321556628 .\..\programs\ghotigames_ss\sidescroller2\tile.h
+	<stdlib.h>
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"GameObject.h"
+
+1321556628 .\..\programs\ghotigames_ss\sidescroller2\projectile.h
+	"GameObject.h"
+
+1321556628 .\..\programs\ghotigames_ss\sidescroller2\item.h
+	"GameObject.h"
+
+1321556628 source:.\..\programs\ghotigames_ss\sidescroller2\item.cpp
+	"Item.h"
+
+1321556628 source:.\..\programs\ghotigames_ss\sidescroller2\loadlevel.cpp
+	"LoadLevel.h"
+	"Character.h"
+	"Enemy.h"
+	<iostream>
+	<fstream>
+
+1321556628 .\..\programs\ghotigames_ss\sidescroller2\loadlevel.h
+	<iostream>
+	<iomanip>
+	<fstream>
+	<vector>
+	"Tile.h"
+	"DVector.h"
+	<string>
+	"Enemy.h"
+	"Item.h"
+
+1321556628 source:.\..\programs\ghotigames_ss\sidescroller2\projectile.cpp
+	"Projectile.h"
+	"Consts.h"
+
+1321556628 source:.\..\programs\ghotigames_ss\sidescroller2\timer.cpp
+	"Timer.h"
+	<SDL.h>
+
+1321556628 .\..\programs\ghotigames_ss\sidescroller2\timer.h
+	<stdint.h>
+
+1336611210 source:.\..\programs\ghotigames_ss\sidescroller2\main.cpp
+	"Game.h"
+
+1336614505 .\..\programs\ghotigames_ss\sidescroller2\game.h
+	<stdlib.h>
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"ImageHandler.h"
+	"LoadLevel.h"
+	"Key.h"
+	"Character.h"
+	"Timer.h"
+	<SDL_Mixer.h>
+	"Enemy.h"
+	"Projectile.h"
+	"Item.h"
+
+1336585003 .\..\programs\ghotigames_ss\sidescroller2\key.h
+
+1335549994 source:c:\users\david welch\desktop\side scroller\code\character.cpp
+	"Character.h"
+
+1321553030 c:\users\david welch\desktop\side scroller\code\character.h
+	"GameObject.h"
+	"Abilities.h"
+
+1321553030 c:\users\david welch\desktop\side scroller\code\gameobject.h
+	<stdlib.h>
+	<string>
+	"DVector.h"
+	"Consts.h"
+
+1321553030 c:\users\david welch\desktop\side scroller\code\dvector.h
+	<stdlib.h>
+
+1336607494 c:\users\david welch\desktop\side scroller\code\consts.h
+
+1321553030 c:\users\david welch\desktop\side scroller\code\abilities.h
+
+1321553030 source:c:\users\david welch\desktop\side scroller\code\enemy.cpp
+	"Enemy.h"
+
+1321553030 c:\users\david welch\desktop\side scroller\code\enemy.h
+	"Character.h"
+
+1321553030 source:c:\users\david welch\desktop\side scroller\code\gameobject.cpp
+	"GameObject.h"
+
+1336514492 source:c:\users\david welch\desktop\side scroller\code\imagehandler.cpp
+	"ImageHandler.h"
+
+1321553030 c:\users\david welch\desktop\side scroller\code\imagehandler.h
+	<stdlib.h>
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	<vector>
+	"GameObject.h"
+	"Consts.h"
+	"Tile.h"
+	"Character.h"
+	"Enemy.h"
+	"Projectile.h"
+	"Item.h"
+
+1321553030 c:\users\david welch\desktop\side scroller\code\tile.h
+	<stdlib.h>
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"GameObject.h"
+
+1321553030 c:\users\david welch\desktop\side scroller\code\projectile.h
+	"GameObject.h"
+
+1321553030 c:\users\david welch\desktop\side scroller\code\item.h
+	"GameObject.h"
+
+1321553030 source:c:\users\david welch\desktop\side scroller\code\item.cpp
+	"Item.h"
+
+1321553030 source:c:\users\david welch\desktop\side scroller\code\loadlevel.cpp
+	"LoadLevel.h"
+	"Character.h"
+	"Enemy.h"
+	<iostream>
+	<fstream>
+
+1321553030 c:\users\david welch\desktop\side scroller\code\loadlevel.h
+	<iostream>
+	<iomanip>
+	<fstream>
+	<vector>
+	"Tile.h"
+	"DVector.h"
+	<string>
+	"Enemy.h"
+	"Item.h"
+
+1321553030 source:c:\users\david welch\desktop\side scroller\code\projectile.cpp
+	"Projectile.h"
+	"Consts.h"
+
+1321553030 source:c:\users\david welch\desktop\side scroller\code\timer.cpp
+	"Timer.h"
+	<SDL.h>
+
+1321553030 c:\users\david welch\desktop\side scroller\code\timer.h
+	<stdint.h>
+
+1336607612 source:c:\users\david welch\desktop\side scroller\code\main.cpp
+	"Game.h"
+
+1336610906 c:\users\david welch\desktop\side scroller\code\game.h
+	<stdlib.h>
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"ImageHandler.h"
+	"LoadLevel.h"
+	"Key.h"
+	"Character.h"
+	"Timer.h"
+	<SDL_Mixer.h>
+	"Enemy.h"
+	"Projectile.h"
+	"Item.h"
+
+1336581404 c:\users\david welch\desktop\side scroller\code\key.h
+
+1335549994 source:c:\users\david welch\dropbox\side-scroller remake\code\character.cpp
+	"Character.h"
+
+1321553030 c:\users\david welch\dropbox\side-scroller remake\code\character.h
+	"GameObject.h"
+	"Abilities.h"
+
+1321553030 c:\users\david welch\dropbox\side-scroller remake\code\gameobject.h
+	<stdlib.h>
+	<string>
+	"DVector.h"
+	"Consts.h"
+
+1321553030 c:\users\david welch\dropbox\side-scroller remake\code\dvector.h
+	<stdlib.h>
+
+1336607494 c:\users\david welch\dropbox\side-scroller remake\code\consts.h
+
+1321553030 c:\users\david welch\dropbox\side-scroller remake\code\abilities.h
+
+1321553030 source:c:\users\david welch\dropbox\side-scroller remake\code\enemy.cpp
+	"Enemy.h"
+
+1321553030 c:\users\david welch\dropbox\side-scroller remake\code\enemy.h
+	"Character.h"
+
+1321553030 source:c:\users\david welch\dropbox\side-scroller remake\code\gameobject.cpp
+	"GameObject.h"
+
+1336514492 source:c:\users\david welch\dropbox\side-scroller remake\code\imagehandler.cpp
+	"ImageHandler.h"
+
+1321553030 c:\users\david welch\dropbox\side-scroller remake\code\imagehandler.h
+	<stdlib.h>
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	<vector>
+	"GameObject.h"
+	"Consts.h"
+	"Tile.h"
+	"Character.h"
+	"Enemy.h"
+	"Projectile.h"
+	"Item.h"
+
+1321553030 c:\users\david welch\dropbox\side-scroller remake\code\tile.h
+	<stdlib.h>
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"GameObject.h"
+
+1321553030 c:\users\david welch\dropbox\side-scroller remake\code\projectile.h
+	"GameObject.h"
+
+1321553030 c:\users\david welch\dropbox\side-scroller remake\code\item.h
+	"GameObject.h"
+
+1321553030 source:c:\users\david welch\dropbox\side-scroller remake\code\item.cpp
+	"Item.h"
+
+1321553030 source:c:\users\david welch\dropbox\side-scroller remake\code\loadlevel.cpp
+	"LoadLevel.h"
+	"Character.h"
+	"Enemy.h"
+	<iostream>
+	<fstream>
+
+1321553030 c:\users\david welch\dropbox\side-scroller remake\code\loadlevel.h
+	<iostream>
+	<iomanip>
+	<fstream>
+	<vector>
+	"Tile.h"
+	"DVector.h"
+	<string>
+	"Enemy.h"
+	"Item.h"
+
+1321553030 source:c:\users\david welch\dropbox\side-scroller remake\code\projectile.cpp
+	"Projectile.h"
+	"Consts.h"
+
+1321553030 source:c:\users\david welch\dropbox\side-scroller remake\code\timer.cpp
+	"Timer.h"
+	<SDL.h>
+
+1321553030 c:\users\david welch\dropbox\side-scroller remake\code\timer.h
+	<stdint.h>
+
+1336607612 source:c:\users\david welch\dropbox\side-scroller remake\code\main.cpp
+	"Game.h"
+
+1336610906 c:\users\david welch\dropbox\side-scroller remake\code\game.h
+	<stdlib.h>
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"ImageHandler.h"
+	"LoadLevel.h"
+	"Key.h"
+	"Character.h"
+	"Timer.h"
+	<SDL_Mixer.h>
+	"Enemy.h"
+	"Projectile.h"
+	"Item.h"
+
+1336581404 c:\users\david welch\dropbox\side-scroller remake\code\key.h
+
+1335549994 source:c:\users\dwelch\dropbox\side-scroller remake\code\character.cpp
+	"Character.h"
+
+1321553030 c:\users\dwelch\dropbox\side-scroller remake\code\character.h
+	"GameObject.h"
+	"Abilities.h"
+
+1321553030 c:\users\dwelch\dropbox\side-scroller remake\code\gameobject.h
+	<stdlib.h>
+	<string>
+	"DVector.h"
+	"Consts.h"
+
+1321553030 c:\users\dwelch\dropbox\side-scroller remake\code\dvector.h
+	<stdlib.h>
+
+1336607494 c:\users\dwelch\dropbox\side-scroller remake\code\consts.h
+
+1321553030 c:\users\dwelch\dropbox\side-scroller remake\code\abilities.h
+
+1321553030 source:c:\users\dwelch\dropbox\side-scroller remake\code\enemy.cpp
+	"Enemy.h"
+
+1321553030 c:\users\dwelch\dropbox\side-scroller remake\code\enemy.h
+	"Character.h"
+
+1321553030 source:c:\users\dwelch\dropbox\side-scroller remake\code\gameobject.cpp
+	"GameObject.h"
+
+1336514492 source:c:\users\dwelch\dropbox\side-scroller remake\code\imagehandler.cpp
+	"ImageHandler.h"
+
+1321553030 c:\users\dwelch\dropbox\side-scroller remake\code\imagehandler.h
+	<stdlib.h>
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	<vector>
+	"GameObject.h"
+	"Consts.h"
+	"Tile.h"
+	"Character.h"
+	"Enemy.h"
+	"Projectile.h"
+	"Item.h"
+
+1255796849 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1255796864 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\sdl_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1255796850 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\sdl_platform.h
+
+1255796850 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\begin_code.h
+
+1255796850 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\close_code.h
+
+1255796849 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796849 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796849 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1255796850 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796849 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796849 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796849 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796849 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796849 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\sdl_keysym.h
+
+1255796850 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796849 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1255796850 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1308363427 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1321553030 c:\users\dwelch\dropbox\side-scroller remake\code\tile.h
+	<stdlib.h>
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"GameObject.h"
+
+1321553030 c:\users\dwelch\dropbox\side-scroller remake\code\projectile.h
+	"GameObject.h"
+
+1321553030 c:\users\dwelch\dropbox\side-scroller remake\code\item.h
+	"GameObject.h"
+
+1321553030 source:c:\users\dwelch\dropbox\side-scroller remake\code\item.cpp
+	"Item.h"
+
+1321553030 source:c:\users\dwelch\dropbox\side-scroller remake\code\loadlevel.cpp
+	"LoadLevel.h"
+	"Character.h"
+	"Enemy.h"
+	<iostream>
+	<fstream>
+
+1321553030 c:\users\dwelch\dropbox\side-scroller remake\code\loadlevel.h
+	<iostream>
+	<iomanip>
+	<fstream>
+	<vector>
+	"Tile.h"
+	"DVector.h"
+	<string>
+	"Enemy.h"
+	"Item.h"
+
+1361304766 source:c:\users\dwelch\dropbox\side-scroller remake\code\main.cpp
+	"Game.h"
+
+1336610906 c:\users\dwelch\dropbox\side-scroller remake\code\game.h
+	<stdlib.h>
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"ImageHandler.h"
+	"LoadLevel.h"
+	"Key.h"
+	"Character.h"
+	"Timer.h"
+	<SDL_Mixer.h>
+	"Enemy.h"
+	"Projectile.h"
+	"Item.h"
+
+1336581404 c:\users\dwelch\dropbox\side-scroller remake\code\key.h
+
+1321553030 c:\users\dwelch\dropbox\side-scroller remake\code\timer.h
+	<stdint.h>
+
+1314331478 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\sdl_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\users\dwelch\dropbox\side-scroller remake\sdl-1.2.14\include\sdl_types.h
+	"SDL_stdinc.h"
+
+1321553030 source:c:\users\dwelch\dropbox\side-scroller remake\code\projectile.cpp
+	"Projectile.h"
+	"Consts.h"
+
+1321553030 source:c:\users\dwelch\dropbox\side-scroller remake\code\timer.cpp
+	"Timer.h"
+	<SDL.h>
+

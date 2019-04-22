@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SideScroller" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\SideScroller" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\SideScroller" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="$(#sdl.include)" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="SDL.dll" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add library="..\SDL-1.2.14\lib\SDL_mixer.lib" />
+			<Add library="..\SDL-1.2.14\lib\SDL_image.lib" />
+			<Add directory="$(#sdl.lib)" />
+		</Linker>
+		<Unit filename="Abilities.h" />
+		<Unit filename="Arrow.bmp" />
+		<Unit filename="Character.cpp" />
+		<Unit filename="Character.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Consts.h" />
+		<Unit filename="DVector.h" />
+		<Unit filename="Depp.png" />
+		<Unit filename="DoubleJumpMsg.bmp" />
+		<Unit filename="Enemy.cpp" />
+		<Unit filename="Enemy.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Game.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="GameObject.cpp" />
+		<Unit filename="GameObject.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="GunMsg.bmp" />
+		<Unit filename="ImageHandler.cpp" />
+		<Unit filename="ImageHandler.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Instructions.bmp" />
+		<Unit filename="Item.cpp" />
+		<Unit filename="Item.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Key.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="LoadLevel.cpp" />
+		<Unit filename="LoadLevel.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="MainMenuBG.bmp" />
+		<Unit filename="Projectile.cpp" />
+		<Unit filename="Projectile.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Projectile.png" />
+		<Unit filename="Tile.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Timer.cpp" />
+		<Unit filename="Timer.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="WallJumpMsg.bmp" />
+		<Unit filename="background.png" />
+		<Unit filename="bg1.ogg" />
+		<Unit filename="bg2.ogg" />
+		<Unit filename="bg3.ogg" />
+		<Unit filename="enemies.png" />
+		<Unit filename="main.cpp" />
+		<Unit filename="misc.png" />
+		<Unit filename="theEye.png" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
